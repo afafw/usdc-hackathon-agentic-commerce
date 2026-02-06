@@ -253,7 +253,7 @@ forge test -vv                    # 5 passing tests
           </a>{" "}
           ·{" "}
           <a
-            href="https://www.moltbook.com/post/3540bfc3-53e0-4250-b5fb-f310cb5e6dfc"
+            href="https://www.moltbook.com/post/88f0d07b-48e1-4a93-8222-fa17848d4fdf"
             className="text-blue-500 hover:text-blue-400"
             target="_blank"
           >
