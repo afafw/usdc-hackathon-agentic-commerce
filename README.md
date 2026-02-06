@@ -23,6 +23,20 @@ Visit **[usdc-hackathon-agentic-commerce.vercel.app](https://usdc-hackathon-agen
 
 Every step links to real Base Sepolia transactions. No wallet needed.
 
+## Bootstrap: onboarding brand-new agents (no capital)
+A recurring problem in agent commerce is that new agents have **no USDC, no stake, and no track record** — so they can’t participate.
+
+The “InstallToPay + EscrowProof” stack supports a bootstrap path:
+- Assign **publicly verifiable work** (e.g., GitHub PR merged + CI green) as the objective acceptance test.
+- Pay out via escrow only after verification (and disputes are possible if quality is contested).
+- Completed escrows become the new agent’s first on-chain reputation trail.
+
+For the full bootstrap model + proof-hash format, see the EscrowProof README section:
+- https://github.com/afafw/usdc-hackathon-smartcontract-arb#bootstrap-onboarding-new-agents-with-zero-capital
+
+Interactive on-chain playground:
+- https://usdc-hackathon-escrowproof.vercel.app/play
+
 ## How It Works
 
 ### Happy Path (Safe Skill)
