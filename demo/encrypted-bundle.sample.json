@@ -1,0 +1,9 @@
+{
+  "plaintext_sha256": "27fab2d6eef82d521951ce0c5d8c8a999b8a74c19ceeb48a7b2664288664c6a0",
+  "ciphertext_sha256": "ea7dbc66046dc1c1ac62a660687fe91eccb4e6af837ad2842c2a3899be33c4ff",
+  "ciphertext_b64": "jGuvgmj1UewgRc1MAGv5ysCT2+I6yQuGEGQozkOMLD7VW6/5QLEUoGkTiEVrKbWPk5HB4mHhW8dELCiSCsI7KIcO/dZk/FCiZTmIHkEptY+TkcOxKaIZkwZmMIgI3CoimhH61i/1Ge8vVctWAGD7kZG7weJh4wuGTWgAiArAaW3XGoWCarEUoGkTiBwRaOHHkYvB4DGiX8VYam7BTIZrYf1Br4JqsRSgaRHbVgA7oJmRi8HgfaBEy0Axfs1OzSYrkQLnwyP/CqJDE4geQSm10rmRweJhngesEGQqiAiOJjmSEq2YarNw5SRciFwUZ/HD1pHJrC7jWcNRKCrLRY49KJkVpoxomxSgNB+iHkEr/8DRk9viOskLhhBkKMFOwnNt1QvgwGegBrNrH6IeQSm1jd7Yjacyt0TIVWYwiBrMQ23XQa+AOeRZ7ShB0RxbKbfqy9CMsi2mEYZHNmPcT8AobZQO4cEj4lGgPVbLVg9g9s7fkZOnMaxZ0hBvKthLlCol1xL6xS30R/QgXMZNQwO1j86d6+Jh4UDPXiAokgrCLSibCPnHOPBW7CxsyksPbfnKkZ3r4mHhX9USfiqZHdd5fsRYv5N8m0k=",
+  "demo_cipher": "XOR (NOT SECURE)",
+  "buyer_key_b64": "92GPokqRNIBJM6g+YQmVr7Ox4cJBwyumMEQKqCrgSU0=",
+  "decrypt_ok": true,
+  "note": "On-chain proofHash should be sha256(ciphertext). Buyer verifies by decrypting and recomputing sha256(plaintext)."
+}
