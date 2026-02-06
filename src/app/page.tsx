@@ -191,6 +191,16 @@ export default function Home() {
             </h3>
             <Timeline demo={demo} />
           </div>
+
+          {/* Receipt link */}
+          <div className="text-center pt-4">
+            <a
+              href={`/receipt/${active}`}
+              className="inline-block px-6 py-3 rounded-lg bg-blue-600/20 text-blue-400 hover:bg-blue-600/40 border border-blue-600/50 font-semibold transition-all"
+            >
+              📋 View Shareable Receipt →
+            </a>
+          </div>
         </div>
       )}
 
